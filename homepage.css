@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+/* --------------------Header--------------------------- */
+
+header {
+    background-color: #151922;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px 0px 100px;
+    position: relative;
+}
+
+header .nav-logo {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+
+}
+
+.nav-links {
+    color: white;
+    display: flex;
+    list-style: none;
+}
+
+.nav-links a:hover {
+    color: rgb(222, 252, 250);
+    transition: 0.4s ease; 
+}
+
+.nav-links li {
+    margin: 0 20px;
+}
+
+.nav-links li a {
+    position: relative;
+    padding: 6px 0;
+    text-decoration: none;
+    color: inherit;
+}
+.nav-links li a::before {
+    position: absolute;
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: green;
+    bottom: 0;
+    transition: 0.3s ease;
+}
+
+.nav-links li a:hover::before {
+    width: 100%;
+}
+
+/* --------------------Header--------------------------- */
+
+
+
+/* -------------------------Middle Content------------------ */
+
+.middle-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 60px;
+    padding: 50px 50px 0px 100px;
+}
+
+.resume-button {
+    color: white;
+    background: green;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+}
+
+.resume-button:hover {
+    opacity: 0.9;
+    transition: 0.3s ease-in-out;
+}
+
+.socials a {
+    text-decoration: none;
+}
+
+.middle-content .intro .socials a {
+   padding: 15px;
+    font-size: 30px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    margin: 15px 2px;
+}
+
+a.fa.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    border-radius: 15px;
+}
+a.fa.fa-linkedin:hover {
+    opacity: 0.9;
+    transition: 0.4s ease;
+}
+
+a.fa.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    border-radius: 15px;
+}
+a.fa.fa-twitter:hover {
+    opacity: 0.9;
+    transition: 0.4s ease;
+}
+
+a.fa.fa-github {
+    background: #24292f;
+    color: white;
+    border-radius: 15px;
+}
+a.fa.fa-github:hover {
+    opacity: 0.9;
+    transition: 0.4s ease;
+}
+
+a.fa.fa-instagram {
+    border-radius: 15px;
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+a.fa.fa-instagram:hover {
+    opacity: 0.9;
+    transition: 0.4s ease;
+}
+
+/* -------------------------Middle Content------------------ */
+
+/* --------------Education------------ */
+
+.education {
+    background: #e5ecfb; 
+    display: flex;
+    flex-direction: column;
+}
+
+.education-title {
+    margin-top: 1%;
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: column;
+}
+
+.education-title h2, p {
+    margin: auto;
+}
+
+.card1, .card2 {
+    background: #ffff;
+    /* border: 2px solid; */
+    display: flex;
+    width: 800px;
+    height: 150px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.card1, .card2{
+    margin-top: 2%;
+    box-shadow: 1px 1px 1px 1px rgb(151, 147, 147);
+}
+
+.card1:hover, .card2:hover{
+    transition: 0.35s ease;
+    box-shadow: 3px 3px 3px 3px rgb(177, 175, 175);
+}
+
+.card2 {
+    margin-bottom: 5%;
+}
+.card-img img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.card-content p{
+    margin: 5% 0px 5% 0px;
+}
+
+.card1 h3, .card2 h3 {
+    color: #012970;
+}
+
+.card1 h4, .card2 h4 {
+    color: #256f03;
+}
+/* --------------Education------------ */
+
+
+
+
+/* ------------------Footer CSS Start------------------ */
+footer {
+    background-color: #151922;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    color: white;
+}
+/* ------------------Footer CSS OVER------------------ */
