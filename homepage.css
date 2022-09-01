@@ -82,11 +82,13 @@ header .nav-logo {
 
 .resume-button {
     color: white;
+    text-decoration: none;
     background: green;
-    width: 100px;
-    height: 40px;
+    width: 130px;
+    height: 70px;
+    padding: 10px 10px;
     border: none;
-    border-radius: 10px;
+    border-radius: 7px;
 }
 
 .resume-button:hover {
@@ -284,4 +286,6 @@ footer {
     text-align: center;
     color: white;
 }
+
+
 /* ------------------Footer CSS OVER------------------ */
