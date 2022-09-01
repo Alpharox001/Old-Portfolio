@@ -15,7 +15,11 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0px 50px 0px 100px;
-    position: relative;
+    position: fixed;
+    overflow: hidden;
+    top: 0px;
+    width: 100%;
+
 }
 
 header .nav-logo {
@@ -59,12 +63,15 @@ header .nav-logo {
     width: 100%;
 }
 
+.marquee {
+    margin-top: 70px;
+}
+
 /* --------------------Header--------------------------- */
 
 
 
 /* -------------------------Middle Content Starts------------------ */
-
 .middle-content {
     display: flex;
     justify-content: space-between;
@@ -214,7 +221,7 @@ a.fa.fa-instagram:hover {
 }
 
 .skills-section .skills-title {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 300px;
     margin: 0 40%;
     text-align: center;
