@@ -179,7 +179,7 @@ a.fa.fa-instagram:hover {
 }
 
 .card1:hover, .card2:hover{
-    transition: 0.35s ease;
+    transition: 0.35s ease-in-out;
     box-shadow: 3px 3px 3px 3px rgb(177, 175, 175);
 }
 
