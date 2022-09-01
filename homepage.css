@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     
 }
@@ -62,7 +63,7 @@ header .nav-logo {
 
 
 
-/* -------------------------Middle Content------------------ */
+/* -------------------------Middle Content Starts------------------ */
 
 .middle-content {
     display: flex;
@@ -93,7 +94,7 @@ header .nav-logo {
 .middle-content .intro .socials a {
    padding: 15px;
     font-size: 30px;
-    width: 35px;
+    width: 60px;
     text-align: center;
     text-decoration: none;
     margin: 15px 2px;
@@ -208,30 +209,63 @@ a.fa.fa-instagram:hover {
 /* --------------Education------------ */
 
 .skills-section {
+    height: 20rem;
     background: linear-gradient(180deg, #5203b4, rgb(0, 140, 255));
 }
 
 .skills-section .skills-title {
     border: 1px solid red;
     width: 300px;
-    margin: auto;
+    margin: 0 40%;
     text-align: center;
+    padding: 15px;
+    font: bolder;
+    color: #fff;
 }
 
 .skills-section .skills {
     display: flex;
-    width: 70%;
+    width: 80%;
     margin: auto;
     align-items: center;
     justify-content: space-between;
-
+    /* background: #00000065; */
+    border-radius: 5px;
+    height: 10rem;
+    padding: 20px;
 }
 
 .skills-section .skills .skill {
-    background: #0e021d;
+    background: #12071f;
     color: #fff;
+    border-radius: 7px;
+    height: 6rem;
+    width: 7rem;
+    text-align: center;
+    box-shadow: 5px 5px 10px 8px rgb(0 0 0/ 20%);
 }
 
+.skills-section .skills .skill img {
+    padding-top: 12px;
+    padding-bottom: 10px;
+    width: 45px;
+    display: block;
+    margin: auto;
+}
+.skills-section .skills .skill img:hover {
+    transform: scale(1.03);
+    transition: .4s ease;
+}
+
+.skills-section .skills .skill:hover {
+    background: #090014;
+    box-shadow: 5px 5px 10px 8px rgb(0 0 0/ 30%);
+    transition: .4s ease;
+}
+
+.skills-section .skills .skill span {
+    font-weight: 500;
+}
 
 /* ------------------Footer CSS Start------------------ */
 footer {
